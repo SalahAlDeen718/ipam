@@ -1,0 +1,33 @@
+# Secrets and environment
+.env
+.env.*
+*.pem
+*.key
+*.crt
+serviceAccount*.json
+google-services.json
+GoogleService-Info.plist
+*.keystore
+*.jks
+key.properties
+temp_passwords*.csv
+*.csv
+
+# Server data
+pb_data/
+*.db
+*.sqlite*
+backups/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins*
+*.iml
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
